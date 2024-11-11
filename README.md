@@ -6,8 +6,8 @@ Kelas     : 5B Reguler Banjarbaru<br>
 
 
 # TAMPILAN APLIKASI
-![2](https://github.com/user-attachments/assets/0e5006c6-1416-4d03-94ee-3c18b4f64fe7)
 ![1](https://github.com/user-attachments/assets/552c0b22-f996-4a3c-a0d0-bb7ec5ed66a2)
+![2](https://github.com/user-attachments/assets/0e5006c6-1416-4d03-94ee-3c18b4f64fe7)
 
 
 
