@@ -68,7 +68,7 @@ public class PenghitungKataFrame extends javax.swing.JFrame {
         jPanel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel1.setText("Maukan Kata");
+        jLabel1.setText("Masukan Kata");
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
@@ -170,7 +170,7 @@ public class PenghitungKataFrame extends javax.swing.JFrame {
                                                 .addComponent(jLabel10)
                                                 .addGap(18, 18, 18)
                                                 .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(jScrollPane1)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
@@ -309,7 +309,7 @@ public class PenghitungKataFrame extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 private void hitungJumlah() {
-        String text = jTextArea1.getText();
+    String text = jTextArea1.getText();
 
     // Split the text by sentence-ending punctuation (., !, ?)
     String[] sentences = text.split("(?<=[.!?])\\s+");
